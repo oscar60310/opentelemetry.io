@@ -20,11 +20,11 @@ Another way this is accomplished is through Python's support for
 auto-instrumentation of logs. The example below is based on the logs example in
 [OpenTelemetry Python repository][].
 
-> There is a logs bridge API; however, it is different from the Traces and
-> Metrics API, because it's not used by application developers to create logs.
-> Instead, they would use this bridge API to setup log appenders in the standard
-> language-specific logging libraries. More information can be found
-> [here](/docs/specs/otel/logs/bridge-api).
+> There is a logs API, however it is different from the Traces and Metrics API,
+> because it's not used by application developers to create logs. Instead, they
+> would use this API to setup log appenders in the standard language-specific
+> logging libraries. More information, see
+> [Logs API](/docs/specs/otel/logs/api).
 
 Start by creating the examples directory and the example Python file:
 

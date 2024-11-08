@@ -4,11 +4,11 @@ weight: 11
 logBridgeWarning: >
   While the `LoggerProvider` / `Logger` APIs are structurally similar to the
   equivalent trace and metric APIs, they serve a different use case. As of now,
-  `LoggerProvider` / `Logger` and associated classes represent the [Log Bridge
-  API](/docs/specs/otel/logs/bridge-api/), which exists to write log appenders
-  to bridge logs recorded through other log APIs / frameworks into
-  OpenTelemetry. They are not intended for end user use as a replacement for
-  Log4j / SLF4J / Logback / etc.
+  `LoggerProvider` / `Logger` and associated classes represent the [Log
+  API](/docs/specs/otel/logs/api/), which exists to write log appenders to
+  bridge logs recorded through other log APIs / frameworks into OpenTelemetry.
+  They are not intended for end user use as a replacement for Log4j / SLF4J /
+  Logback / etc.
 cSpell:ignore: Dotel kotlint Logback updowncounter
 ---
 

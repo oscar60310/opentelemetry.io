@@ -1064,8 +1064,7 @@ Now that a `LoggerProvider` is configured, you can use it to set up a
 #### Log Bridge
 
 A log bridge is a component that bridges logs from an existing log package into
-the OpenTelemetry [Log SDK](#logs-sdk) using the [Logs Bridge
-API][logs bridge API].
+the OpenTelemetry [Log SDK](#logs-sdk) using the [Logs API].
 
 A full list of log bridges available can be found in the
 [OpenTelemetry registry](/ecosystem/registry/?language=go&component=log-bridge).
@@ -1096,8 +1095,8 @@ telemetry backends.
 [instrumentation library]: ../libraries/
 [opentelemetry collector]:
   https://github.com/open-telemetry/opentelemetry-collector
-[logs bridge API]: /docs/specs/otel/logs/bridge-api
-[log data model]: /docs/specs/otel/logs/data-model
+[Logs API]: /docs/specs/otel/logs/api/
+[log data model]: /docs/specs/otel/logs/data-model/
 [`go.opentelemetry.io/otel`]: https://pkg.go.dev/go.opentelemetry.io/otel
 [`go.opentelemetry.io/otel/exporters/stdout/stdoutmetric`]:
   https://pkg.go.dev/go.opentelemetry.io/otel/exporters/stdout/stdoutmetric
